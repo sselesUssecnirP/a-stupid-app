@@ -1,0 +1,35 @@
+{
+  "name": "a-stupid-app",
+  "version": "1.0.0",
+  "description": "just a stupid app",
+  "main": "start.js",
+  "scripts": {
+    "test": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sselesUssecnirP/a-stupid-app.git"
+  },
+  "keywords": [
+    "stupid",
+    "app",
+    "virus",
+    "stupid",
+    "app",
+    "random",
+    "images",
+    "random",
+    "audio",
+    "blahblahblah"
+  ],
+  "author": "sselesUssecnirP",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/sselesUssecnirP/a-stupid-app/issues"
+  },
+  "homepage": "https://github.com/sselesUssecnirP/a-stupid-app#readme",
+  "devDependencies": {
+    "electron": "^20.0.2",
+    "electron-packager": "^15.5.1"
+  }
+}

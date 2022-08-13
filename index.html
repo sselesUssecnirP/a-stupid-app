@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Your Computer Have Virus</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <audio autoplay onended="ipcRenderer.send('close', 'index')">
+            <source src="./audio/vineboom.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+            const { ipcRenderer } = require('electron');
+
+            let audio = document.getElementsByTagName('audio')[0]
+        </script>
+    </body>
+</html>
